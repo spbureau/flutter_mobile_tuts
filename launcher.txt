@@ -1,0 +1,18 @@
+###
+// Flutter Launcher Icon configurations
+
+// Setting up Flutter Launcher Icons
+** Package: flutter_laucher_icons
+** Root config in pubspec.yaml:
+flutter_icons:
+ image_path: assets/path.png
+ android: true
+ ios: true
+
+** Then run off commands in terminal to create launcher icons:
+flutter pub run flutter_launcher_icons:main
+
+<<<Wait to run and you should be done>>>
+
+###
+// Native Splash Screen

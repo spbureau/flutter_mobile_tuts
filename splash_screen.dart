@@ -15,8 +15,10 @@
 //.  image_dark: path/
 //.  android: true
 //.  ios: true
-//.  android_activity: fill - for image to fill screen
-//   ios_content_:
+//.  android_gravity: fill - for image to fill screen
+//   ios_content_mode: scaleAspectFill - to fill screen for iOS 
+
+
 
 // ## Run ff commands in terminal
 // To Generate Splash Screen - Single Command: flutter clean && flutter pub get && flutter pub run flutter_native_splash:create

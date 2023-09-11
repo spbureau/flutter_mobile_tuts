@@ -1,8 +1,17 @@
 // Flutter Splash Screen sample code- 2 Method:
 // In App and Native Splash Screens
 
-// Starting with Native Splash
+// #1 Starting with Native Splash
 // That's pubspec.yaml configurations for splash screen outside of app
+
+// flutter_native_splash - package
+// in pubspec.yaml, after dev_dep,
+// write...
+// flutter_native_splash:
+//.  color: "hex color"
+//.  image: assets/path
+//.  android: true
+//.  ios: true
 
 // pasting from working file 11/09/2023
 

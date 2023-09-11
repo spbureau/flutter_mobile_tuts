@@ -1,4 +1,9 @@
-// Copyright (c) 2023, Simon Peters 
+(Icons.upload)),
+    );
+      
+  }
+}
+// Copyright (c) 2019, the Dart project authors.  Please see the AUTHORS file
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
@@ -25,6 +30,13 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
+
+
+      routes: {
+
+       '/newPage': (context) => const NewPage(),
+
+      }
     );
   }
 }
@@ -42,7 +54,24 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+ 
+  @override
 
+  void initState(){
+
+   super.initState();
+
+   Future.delayed(
+
+    const Duration(seconds: 3), (){
+
+Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const NewPage(),));
+
+    }
+
+   );
+
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -65,3 +94,19 @@ class _MyHomePageState extends State<MyHomePage> {
       
   }
 }
+
+
+
+class NewPage extends StatelessWidget{
+  
+const NewPage();
+
+@override
+Widget build(BuildContext context){
+  return const Scaffold(
+    body: Center(child: Text("New Page")),
+  );
+  }
+}
+// working as at today 11/09/2023
+// splash screen

@@ -4,14 +4,20 @@
 // #1 Starting with Native Splash
 // That's pubspec.yaml configurations for splash screen outside of app
 
-// flutter_native_splash - package
-// in pubspec.yaml, after dev_dep,
+// ##flutter_native_splash - package
+
+// ## In pubspec.yaml, after dev_dep,
 // write...
 // flutter_native_splash:
 //.  color: "hex color"
 //.  image: assets/path
 //.  android: true
 //.  ios: true
+
+// ## Run ff commands in terminal
+// To Generate Splash Screen - Single Command: flutter clean && flutter pub get && flutter pub run flutter_native_splash:create
+
+// #2 App Splash Screen 
 
 // pasting from working file 11/09/2023
 

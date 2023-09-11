@@ -10,9 +10,13 @@
 // write...
 // flutter_native_splash:
 //.  color: "hex color"
+//.  color_dark: "..." - for dark theme
 //.  image: assets/path
+//.  image_dark: path/
 //.  android: true
 //.  ios: true
+//.  android_activity: fill - for image to fill screen
+//   ios_content_:
 
 // ## Run ff commands in terminal
 // To Generate Splash Screen - Single Command: flutter clean && flutter pub get && flutter pub run flutter_native_splash:create

@@ -1,26 +1,6 @@
 // Flutter Splash Screen sample code- 2 Method:
+// Native: see 'launcher.txt'
 // In App and Native Splash Screens
-
-// #1 Starting with Native Splash
-// That's pubspec.yaml configurations for splash screen outside of app
-
-// ##flutter_native_splash - package
-
-// ## In pubspec.yaml, after dev_dep,
-// write...
-// flutter_native_splash:
-//.  color: "hex color"
-//.  color_dark: "..." - for dark theme
-//.  image: assets/path
-//.  image_dark: path/
-//.  android: true
-//.  ios: true
-//.  android_gravity: fill - for image to fill screen
-//   ios_content_mode: scaleAspectFill - to fill screen for iOS 
-
-// ## Run ff commands in terminal
-// To Generate Splash Screen - Single Command: flutter clean && flutter pub get && flutter pub run flutter_native_splash:create
-// [ run combined cmdd any time splash config is change to recreate splash files
 
 // #2 App Splash Screen 
 
